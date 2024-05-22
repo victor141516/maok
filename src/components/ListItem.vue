@@ -3,7 +3,7 @@ import { Icon } from '@iconify/vue'
 import Children from '@/components/Children.vue'
 import { TreeNode } from '@/libs/tree-path'
 import { state } from '@/store/tree'
-import { computed, ref, watch } from 'vue'
+import { computed, ref } from 'vue'
 
 const props = defineProps<{
   node: TreeNode
