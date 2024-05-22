@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-primary-100 text-primary-950;
+}
+
+h1 {
+  @apply text-xl font-bold;
+}
